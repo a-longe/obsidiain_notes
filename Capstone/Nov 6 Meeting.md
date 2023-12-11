@@ -1,0 +1,6 @@
+- Talked about [[Euclid Euler theorem]]
+- Talked about CSC 110
+	- use more helper functions for each assignment and lab
+	- use obsidian to organize thoughts on each assignment and lab before writing any code
+- To Do:
+	- [[Writing A Chess B]]

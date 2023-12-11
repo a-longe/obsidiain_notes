@@ -1,0 +1,1 @@
+- Be able to set board to fen string

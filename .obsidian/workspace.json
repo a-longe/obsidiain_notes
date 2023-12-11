@@ -1,0 +1,209 @@
+{
+  "main": {
+    "id": "d3c21fd8b2201cdc",
+    "type": "split",
+    "children": [
+      {
+        "id": "7783b3727cc23693",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9dd65bf0d5df667b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University/Courses/CSC110/Lab 9.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "54cc2f9e11801513",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Capstone/Writing A Chess Board.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "359870e55b712c95",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "241852cfd98218f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University/Courses/CSC110/Integer Dividing.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4b1ab32d2fe7d8a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "8f0e6901746a2b0a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be321ed3d00247ad",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byModifiedTime"
+              }
+            }
+          },
+          {
+            "id": "cebcffe92d3cc06b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#__get_number_frequencies",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9528a36d6767d6cc",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "34209a6559d74777",
+    "type": "split",
+    "children": [
+      {
+        "id": "891502d745004e94",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6d66523d9a2c7625",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "University/Courses/CSC110/Lab 9.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "2a10232e999af237",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "University/Courses/CSC110/Lab 9.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "05e1e0d6e8135560",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "1e2a7b79d4c5a746",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "University/Courses/CSC110/Lab 9.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "gpt3-notes:GPT-3 Notes": false
+    }
+  },
+  "active": "359870e55b712c95",
+  "lastOpenFiles": [
+    "Capstone/Writing A Chess Board.md",
+    "Capstone/Display chess board.md",
+    "Capstone/Engine To Do.md",
+    "University/University Applications/Queens.md",
+    "University/Courses/CSC110/Lab 9.md",
+    "University/Courses/CSC110/Assignment 9.md",
+    "University/Courses/CSC110/Dictionaries.md",
+    "University/Courses/CSC110/Integer Dividing.md",
+    "University/Courses/CSC110/CSC110.md",
+    "Capstone/Nov 6 Meeting.md",
+    "University/University Applications/University Application Notes.md",
+    "integer division.md",
+    "Capstone",
+    "University/Courses/CSC110",
+    "University/Courses",
+    "University/University Applications",
+    "2023-11-05.md",
+    "Untitled 1.canvas",
+    "Untitled 2.canvas",
+    "Untitled.canvas",
+    "University",
+    "Untitled.md"
+  ]
+}

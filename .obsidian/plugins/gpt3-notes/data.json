@@ -1,0 +1,58 @@
+{
+  "appName": "GP3_NOTES",
+  "token": "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",
+  "model": "text-davinci-003",
+  "tokens": 30,
+  "temperature": 5,
+  "promptHistory": [
+    {
+      "prompt": "Write a paragraph on a brief overview of python dictionaries",
+      "processedPrompt": "Write a paragraph on a brief overview of python dictionaries",
+      "temperature": 0.5,
+      "tokens": 300
+    },
+    {
+      "prompt": "Write a paragraph on a brief overview of python dictionarieswith comments",
+      "processedPrompt": "Write a paragraph on a brief overview of python dictionarieswith comments",
+      "temperature": 0.5,
+      "tokens": 300
+    },
+    {
+      "prompt": "Create an outline of python dictionaries to summerize their application and use",
+      "processedPrompt": "Create an outline of python dictionaries to summerize their application and use",
+      "temperature": 0.5,
+      "tokens": 300
+    },
+    {
+      "prompt": "Create an outline of python dictionaries to summerize their application and use",
+      "processedPrompt": "Create an outline of python dictionaries to summerize their application and use",
+      "temperature": 0.5,
+      "tokens": 30
+    },
+    {
+      "prompt": "Create an outline of python dictionaries to summerize their application and use{{selection}} ",
+      "processedPrompt": "Create an outline of python dictionaries to summerize their application and use ",
+      "temperature": 0.5,
+      "tokens": 30
+    }
+  ],
+  "tokenParams": {
+    "prefix": [
+      "Write an essay",
+      "Write dashed notes",
+      "Write bullet notes",
+      "Write paragraphs",
+      "Write an article",
+      "Create a manual",
+      "Create an outline",
+      "Write a summary",
+      "Write a program"
+    ],
+    "postfix": [
+      "with sources",
+      "with footnotes",
+      "with comments",
+      "with quotes"
+    ]
+  }
+}
