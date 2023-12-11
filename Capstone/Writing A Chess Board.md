@@ -115,7 +115,7 @@ Write out how each component is supposed to work
 				[empty, empty, empty, empty, empty, empty, empty],
 				[empty, empty, empty, empty, empty, empty, empty]
 			]
-```
+		```
 
  - Concepts:
 	 - Row
