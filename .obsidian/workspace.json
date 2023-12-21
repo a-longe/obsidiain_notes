@@ -36,8 +36,12 @@
             "id": "359870e55b712c95",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Capstone/Writing A Chess Board.md",
+                "mode": "source",
+                "source": false
+              }
             }
           },
           {
@@ -119,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "University/Courses/CSC110/Lab 9.md",
+                "file": "Capstone/Writing A Chess Board.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "University/Courses/CSC110/Lab 9.md",
+                "file": "Capstone/Writing A Chess Board.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "University/Courses/CSC110/Lab 9.md"
+                "file": "Capstone/Writing A Chess Board.md"
               }
             }
           }
@@ -183,8 +187,8 @@
   },
   "active": "359870e55b712c95",
   "lastOpenFiles": [
-    "Capstone/Writing A Chess Board.md",
     "Capstone/Display chess board.md",
+    "Capstone/Writing A Chess Board.md",
     "Capstone/Engine To Do.md",
     "University/University Applications/Queens.md",
     "University/Courses/CSC110/Lab 9.md",
