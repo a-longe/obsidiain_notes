@@ -150,6 +150,12 @@ Write out how each component is supposed to work
 			- if that square is occupied by a piece of same colour, break out of loop
 			- if its occupied by piece of opposite colour, add that square to list, then break
 			- if it's empty, add to list, then apply offset again and repeat
+			```python
+			def get_sliding_moves(board, start:int, offset:int) -> 
+													list[tuple[int, int]]
+				# new_square:int = 
+			```
+			
 	- either way, to check if a move will leave the board, convert the integer with divmod and apply offset, then check if either number is > 8 or < 0
 
 
@@ -167,3 +173,9 @@ Write out how each component is supposed to work
 	- Suggestion: Start with something super simple like move clocks to get an idea on how to build up the frame for other edge cases to 
  - need to add win/loss screen
 	 - maybe to start and keep it simple we simply print what colour won and then break out of loop?
+
+where to put blue square code?
+what fow the game class need to be?
+move piece update to apply to board, then seperatly apply board surface tpo display surface. (piece update to specified surface?)
+use racket to make a super simple game and think about the differences between the chosen racket package vs pygame
+
