@@ -46,6 +46,15 @@
 
 # __Piece Class__
 - __OVERALL JOB:__
-	- 
+	- To represent a chess piece on a given chess board
+- A chess piece can be expressed using a couple variables, what type of piece it is (Bishop, Rook, ect.) what colour is is (white/black) and what board it's a part of and where it is on said board. 
+- We need to have two variables to represent this because there is the square the piece is on (0-63) and also a coordinate to show where the piece is when being dragged
+- We also have some more variables that are needed because this is a GUI, is the piece is being clicked, a previous location so that we can have snapback to the previous square ifthe user moves the piece to an invalid location. It also needs to have a image to display, *because the piece is responsible for drawing itself on the display surface*
+
+- Problem Methods:
+	- atm there are two methods that should be moved to other classes, get_square_index() because it deals with the board cords and square size, not something that the piece class should care about.
+	- the other method I believe needs to be moved is the get_sliding_moves() which is a weird one given the fact that it needs to know what's on the board and also need to be given a square where a piece is on and the offsets to calculate, I think we can change this by moving it to the board class as it does deal with where pieces are on the board. then, to remove the awkwardness of supplying the offsets as magic numbers, we should have a overarching method in the board class that will return all valid moves given a square, it should look at that square and get the piece type and call the appropriate function, sliding moves or jumping moves.
+		- Ramifications:
+			- this means we wouldn't need to have separate classes for each piece type because the board would be responsible for checking where all the other pieces are
 
 # __Mouse Up and Mouse Down__
