@@ -58,3 +58,9 @@
 			- this means we wouldn't need to have separate classes for each piece type because the board would be responsible for checking where all the other pieces are
 
 # __Mouse Up and Mouse Down__
+- The mouse up and mouse down functions are called when the mouse input changes from up to down or visa versa.
+- Maybe we should calculate all the valid moves every time a new board is created and put them in a dictionary? atm we have an issue where the program calls to calculate all possible moves every frame while it is clicked to show the blue squares.
+- on_mouse_up
+	- find if any pieces are under mouse, and is that pieces turn if so set click to true and store position so it can snap back if dropped in illegal place
+- on_mouse_down
+	- deals with all piece and mouse interaction, taking, moving, snapping to squares and shifting the piece back to the previous square if placed in illegal position and with making creating a new board when a successful move has been made
