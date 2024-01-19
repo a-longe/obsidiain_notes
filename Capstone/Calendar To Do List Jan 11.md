@@ -3,6 +3,11 @@
 - [x] Jan 13th - Add en passant into legal moves for pawn
 - [ ] Jan 14th - Make game end if king is taken or move/half move counts get too large
 - [x] Jan 16th - Castling & Update castling rights
-- [ ] Jan 17th  - connect stock fish to play against
+- [x] Jan 18th - add cases for castling and en passent
+- [ ] Jan 20th - move methods outside classes for testing
+	- Don't need to move things like clear_display and thing s like that but methods being used to assist bigger methods like move_to should be moved out for testing
+	- if returns value, rule of thumb should be to remove it
+- [ ] Jan 22th - add promotion
+- [ ] Jan 23th  - connect stock fish to play against
 
-- [ ] Jan 18th - Start on engine in Racket
+- [ ] Jan 24th - Start on engine in Racket
