@@ -4,12 +4,13 @@
 - [ ] Jan 14th - Make game end if king is taken or move/half move counts get too large
 - [x] Jan 16th - Castling & Update castling rights
 - [x] Jan 18th - add cases for castling and en passent
-- [ ] Jan 20th - move methods outside classes for testing
+- [x] Jan 20th - move methods outside classes for testing
 	- Don't need to move things like clear_display and thing s like that but methods being used to assist bigger methods like move_to should be moved out for testing
 	- if returns value, rule of thumb should be to remove it
-- [ ] Jan 22th - add promotion
+	- making move_to dumb and getting boards carry the logic
+- [x] Jan 22nd - add promotion
 - [ ] Jan 24th - calculate *legal* moves
 	- only allow moves if it does not put king in check
 - [ ] Jan 26th  - connect stock fish to play against
 
-- [ ] Jan 28th - Start on engine in Racket
+- [ ] Jan 28th - Start on engine in Racket 
