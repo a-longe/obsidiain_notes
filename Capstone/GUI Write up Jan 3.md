@@ -64,3 +64,11 @@
 	- find if any pieces are under mouse, and is that pieces turn if so set click to true and store position so it can snap back if dropped in illegal place
 - on_mouse_down
 	- deals with all piece and mouse interaction, taking, moving, snapping to squares and shifting the piece back to the previous square if placed in illegal position and with making creating a new board when a successful move has been made
+
+# __Legal Moves and Checks__
+need to check if there are any legal moves after a move that will threaten the king, the issue is that to find any legal moves, we need to call this function. To try and fix this, I will do some research on the chess programming wiki.
+
+Upon Further thinking, the simplest way I can think of is to find the board after a move, and check for VALID moves as we only need to check if they can move there, not put their own king in check
+
+Now we've run into another recursive issue with this function where to check if a move is creates a check we need to get the board after a  move but to do that we need to evaluate what kind of move it is, but  to evaluate what kind of move it is, specifically if that move is  allowed we're checking if a move creates a check again
+
