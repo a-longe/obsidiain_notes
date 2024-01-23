@@ -9,8 +9,8 @@
 	- if returns value, rule of thumb should be to remove it
 	- making move_to dumb and getting boards carry the logic
 - [x] Jan 22nd - add promotion
-- [ ] Jan 24th - calculate *legal* moves
+- [ ] Jan 27th - calculate *legal* moves
 	- only allow moves if it does not put king in check
-- [ ] Jan 26th  - connect stock fish to play against
+- [ ] Jan 28th  - connect stock fish to play against
 
-- [ ] Jan 28th - Start on engine in Racket 
+- [ ] Jan 29th - Start on engine in Racket 
